@@ -1,0 +1,21 @@
+<button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+  <mat-icon>reorder</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <nav>
+        <button mat-menu-item rouerLink="/upcomingMatches" routerLinkActive="Active">
+          <mat-icon>skip_next</mat-icon>
+          <span>Upcoming MAtches</span>
+
+        </button>
+      
+        <button mat-menu-item routerLink="/previousMatches" routerLinkActive="Active">
+        	<mat-icon>skip_previous</mat-icon>
+          <span>Old MAtches</span>
+        </button>
+      </nav>
+        <button mat-menu-item >
+          <mat-icon>grade</mat-icon>
+          <span>Recomended</span>
+        </button>
+      </mat-menu>

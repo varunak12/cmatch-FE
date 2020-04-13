@@ -1,0 +1,33 @@
+
+
+<body>
+        <html class="bg">
+                <mat-card class="example-card">
+                <div class="container">
+                 <h2 class="jumbotron text-center">Login Form</h2>
+                 <form class="login-form" [formGroup]="loginform"
+                 (ngSubmit)="loginUser()">
+                 <mat-form-field>
+                     <input type="text" matInput placeholder="Enter Email"
+                     formControlName="emailId"><br>
+                     <mat-error *ngIf="loginform.get('emailId')?.touched
+                     && loginform.get('emailId')?.hasError('required')">
+                     emailId is required</mat-error>
+                   </mat-form-field>
+                   <mat-form-field>
+                     <input type="password" matInput placeholder="Enter Password"
+                     formControlName="password">
+                   </mat-form-field>
+                   <div class="login" >
+                   <button mat-raised-button color="primary" type="submit" color="success">Login</button>
+                  </div>
+                   <nav>
+                   
+                </nav>
+                 </form>
+                </div>
+                </mat-card>
+                </html>
+</body>
+
+

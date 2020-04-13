@@ -1,0 +1,10 @@
+.nav a:visited, a:link{
+    color: #607d88;
+}
+.nav a:hover{
+    columns: #040404;
+    background-color: beige;
+}
+nav a.active{
+    color: blue
+}

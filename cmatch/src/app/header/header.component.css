@@ -1,0 +1,24 @@
+input[type=text] {
+    width: 200px;
+    height: 30px;
+    border-radius: 25px;
+  }
+  
+ .main-header{
+     height: 4em;
+ }
+ .header{
+     padding-left: 600px;
+     display: flex;
+     flex-direction: row;
+
+    
+ }
+ .header button{
+    margin-left: 5px;
+ }
+ .header img{
+    padding-top: 2px;
+    margin-top: 2px;
+ }
+  

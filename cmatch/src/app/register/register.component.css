@@ -1,0 +1,11 @@
+.form-group{
+    display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 30%;
+   
+   }.chai{
+       height: 90%;
+       width: 100%
+   }
+   
